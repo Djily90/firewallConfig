@@ -1,0 +1,7 @@
+25000 Configuration du pare-feu
+25001 Profil
+25002 État
+25003 Stratégie de pare-feu
+25004 Règles de pare-feu locales
+25005 Nom du fichier
+25006 Taille maximale du fichier

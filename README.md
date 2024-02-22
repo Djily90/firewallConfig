@@ -1,2 +1,2 @@
 # Firewall configuration
-Retrieve firewall configurations
+Retrieve the firewall configuration
