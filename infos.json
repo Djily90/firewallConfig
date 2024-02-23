@@ -11,7 +11,7 @@
   "supportedAgent": [
     "Windows"
   ],
-  "version": "3.4",
+  "version": "1",
   "licence": "GPLv2",
   "description": {
     "fr": "Remonte la configuration du pare-feu",

@@ -16,7 +16,7 @@ $attributeParam = ""
 
 # Detect language based on the first line of the output
 $language = if ($lines[1] -match '^(Domain|Private|Public) Profile Settings:') { 'English' } else { 'French' }
-[Console]::WriteLine($language)
+
 if ($language -eq 'French') {
     $attributeState = 'État'
     $attributeFireWallPolicy = 'Stratégie de pare-feu'
@@ -29,7 +29,7 @@ if ($language -eq 'French') {
 }
 
 foreach ($line in $lines) {
-    if ($line.Trim() -match '(Paramètres|Profile Settings)') {fire
+    if ($line.Trim() -match '(Paramètres|Profile Settings)') {
         # If there's a current profile being processed, add it to the list
         if ($null -ne $currentProfile) {
             $firewallProfiles += $currentProfile
@@ -74,4 +74,6 @@ foreach($firewallConfig in $firewallProfiles)
 }
 
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+
 [Console]::WriteLine($xml)
+

@@ -19,7 +19,7 @@ if(AJAX){
 else{
     $ajax=false;
 }
-    print_item_header("Firewall Configuration");
+    print_item_header($l->g(25000));
 
 	if (!isset($protectedPost['SHOW'])){
         $protectedPost['SHOW'] = 'NOSHOW';

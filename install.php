@@ -17,7 +17,7 @@ function extension_install_firewallconfig()
         `PROFILE` varchar(255) DEFAULT NULL,
         `STATE` varchar(255) DEFAULT NULL,
         `FIREWALLPOLICY` varchar(255) DEFAULT NULL,
-        `LOCALFIREWALLRULES` int(11) DEFAULT NULL,
+        `LOCALFIREWALLRULES` varchar(255) DEFAULT NULL,
         `FILENAME` varchar(255) DEFAULT NULL,
         `MAXFILESIZE` varchar(255) DEFAULT NULL,
         PRIMARY KEY (`ID`,`HARDWARE_ID`)
