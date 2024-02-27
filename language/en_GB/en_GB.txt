@@ -1,4 +1,4 @@
-25000 Firewall configurration
+25000 Firewall configuration
 25001 Profile
 25002 State
 25003 Firewall Policy
